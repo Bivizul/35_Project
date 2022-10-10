@@ -1,7 +1,7 @@
 package aaa.bivizul.a35project.howbetui.spreads
 
-import aaa.bivizul.a35project.howbetui.howbetwidget.Howbetcp
 import aaa.bivizul.a35project.howbetui.howbetscreentab.HowbetScreenTab
+import aaa.bivizul.a35project.howbetui.howbetwidget.Howbetcp
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue

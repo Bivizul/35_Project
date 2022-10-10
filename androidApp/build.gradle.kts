@@ -60,4 +60,5 @@ dependencies {
     implementation(Deps.ArkIvanov.Decompose.decompose)
     implementation(Deps.ArkIvanov.Decompose.extensionsAndroid)
     implementation(Deps.Kmp.Util.onesignal)
+    implementation((Deps.Kmp.Util.advancedWebView))
 }

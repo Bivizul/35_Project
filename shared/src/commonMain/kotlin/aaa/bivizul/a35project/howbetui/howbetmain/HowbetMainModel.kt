@@ -1,8 +1,8 @@
 package aaa.bivizul.a35project.howbetui.howbetmain
 
-import aaa.bivizul.a35project.howbetui.spreads.SpreadsModel
 import aaa.bivizul.a35project.howbetui.betting.BettingModel
 import aaa.bivizul.a35project.howbetui.fantasy.FantasyModel
+import aaa.bivizul.a35project.howbetui.spreads.SpreadsModel
 import com.arkivanov.decompose.router.stack.ChildStack
 import com.arkivanov.decompose.value.Value
 

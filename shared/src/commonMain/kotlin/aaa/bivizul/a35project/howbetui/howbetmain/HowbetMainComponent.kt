@@ -42,7 +42,10 @@ class HowbetMainComponent(
         navigation.bringToFront(Config.Fantasy(itemId))
     }
 
-    private fun createChild(config: Config, componentContext: ComponentContext): HowbetMainModel.Child =
+    private fun createChild(
+        config: Config,
+        componentContext: ComponentContext
+    ): HowbetMainModel.Child =
         when (config) {
             is Config.Spreads -> HowbetMainModel.Child.SpreadsChild(
                 SpreadsComponent(

@@ -11,5 +11,8 @@ object Howbetcon {
     const val HOWBETSURL = "35Project/howbets.json"
     const val HOWBETGURL = "35Project/howbet.php"
     const val HOWBETOSAI = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+    const val HOWBETKOR = "howbetkor"
+    const val HOWBETDOR = "https://www.google.com/"
+    const val HOWBETACT = "aaa.bivizul.a35project.android.HowbetActivity"
 
 }

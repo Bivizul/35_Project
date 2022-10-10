@@ -1,10 +1,9 @@
 package aaa.bivizul.a35project.howbetui.howbet
 
 import aaa.bivizul.a35project.howbetdata.howbetmodel.Howbetar
-import aaa.bivizul.a35project.howbetdata.howbetutil.getHowbettactoff
+import aaa.bivizul.a35project.howbetdata.howbetutil.getHowbetact
 import aaa.bivizul.a35project.howbetdata.howbetutil.sigHowbetoff
 import aaa.bivizul.a35project.howbetui.howbetwidget.Howbetcp
-import aaa.bivizul.a35project.howbetui.howbetwidget.howbetct
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
@@ -31,8 +30,7 @@ fun HowbetContent(
                 sigHowbetoff()
                 component.onReplace()
             } else {
-                howbetct(model.activity, it)
-                getHowbettactoff(model.activity)
+                getHowbetact(model.activity, it)
             }
         }
     }

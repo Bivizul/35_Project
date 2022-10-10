@@ -13,4 +13,4 @@ internal expect fun getHowbett(): String
 internal expect fun getHowbetdlg(howbetcon: Any)
 internal expect fun checkHowbetnet(howbetcon: Any): Boolean
 internal expect fun sigHowbetoff()
-internal expect fun getHowbettactoff(howbetcon: Any)
+internal expect fun getHowbetact(howbetact: Any, howbeturl: String)

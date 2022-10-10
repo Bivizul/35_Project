@@ -4,7 +4,7 @@ import aaa.bivizul.a35project.howbetdata.howbetutil.Howbetcon.HOWBETOSAI
 import android.app.Application
 import com.onesignal.OneSignal
 
-class A35PApp  : Application() {
+class A35PApp : Application() {
 
     override fun onCreate() {
         super.onCreate()

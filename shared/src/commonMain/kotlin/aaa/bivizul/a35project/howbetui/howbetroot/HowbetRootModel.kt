@@ -1,7 +1,7 @@
 package aaa.bivizul.a35project.howbetui.howbetroot
 
-import aaa.bivizul.a35project.howbetui.howbetmain.HowbetMainModel
 import aaa.bivizul.a35project.howbetui.howbet.HowbetModel
+import aaa.bivizul.a35project.howbetui.howbetmain.HowbetMainModel
 import com.arkivanov.decompose.router.stack.ChildStack
 import com.arkivanov.decompose.value.Value
 

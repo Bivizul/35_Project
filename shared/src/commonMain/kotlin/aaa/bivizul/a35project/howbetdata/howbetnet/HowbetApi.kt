@@ -4,8 +4,8 @@ import aaa.bivizul.a35project.howbetdata.howbetmodel.Howbet
 import aaa.bivizul.a35project.howbetdata.howbetmodel.Howbetg
 import aaa.bivizul.a35project.howbetdata.howbetmodel.Howbets
 import aaa.bivizul.a35project.howbetdata.howbetutil.Howbetcon.HOWBETBASEURL
-import aaa.bivizul.a35project.howbetdata.howbetutil.Howbetcon.HOWBETSURL
 import aaa.bivizul.a35project.howbetdata.howbetutil.Howbetcon.HOWBETGURL
+import aaa.bivizul.a35project.howbetdata.howbetutil.Howbetcon.HOWBETSURL
 import io.ktor.client.*
 import io.ktor.client.call.*
 import io.ktor.client.engine.cio.*

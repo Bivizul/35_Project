@@ -2,10 +2,13 @@
 
 package aaa.bivizul.a35project.howbetdata.howbetutil
 
+import aaa.bivizul.a35project.howbetdata.howbetutil.Howbetcon.HOWBETACT
+import aaa.bivizul.a35project.howbetdata.howbetutil.Howbetcon.HOWBETKOR
 import android.annotation.SuppressLint
 import android.app.Activity
 import android.app.AlertDialog
 import android.content.Context
+import android.content.Intent
 import android.net.ConnectivityManager
 import android.telephony.TelephonyManager
 import com.onesignal.OneSignal
@@ -49,11 +52,13 @@ actual fun getHowbetl(): String {
 }
 
 actual fun getHowbett(): String {
-    val howbettz = TimeZone.getDefault().getDisplayName(false, TimeZone.SHORT)
-    var howbetzone = "00:00"
-    if (howbettz.length > 3) {
-        howbetzone = howbettz.substring(3)
-    }
+    val howbettz: String = SimpleDateFormat("z", Locale.getDefault()).format(
+        Calendar.getInstance(
+            TimeZone.getTimeZone("GMT"),
+            Locale.getDefault()
+        ).time
+    ).replace("GMT", "")
+    val howbetzone = if (howbettz.contains(":")) howbettz else "default"
     return howbetzone
 }
 
@@ -84,9 +89,11 @@ actual fun sigHowbetoff() {
     OneSignal.disablePush(true)
 }
 
-internal actual fun getHowbettactoff(howbetcon: Any) {
-    val activity = howbetcon as Activity
-    activity.finish()
-    System.exit(0)
+actual fun getHowbetact(howbetact: Any, howbeturl: String) {
+    val howbeta = howbetact as Activity
+    val howbetc = Class.forName(HOWBETACT)
+    val howbeti = Intent(howbeta, howbetc)
+    val howbetput = howbeti.putExtra(HOWBETKOR, howbeturl)
+    howbeta.startActivity(howbetput)
 }
 
