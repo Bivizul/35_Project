@@ -2,8 +2,8 @@ package aaa.bivizul.a35project.howbetdata.howbetutil
 
 object Howbetcon {
 
-    const val HOWBETBV = "http://65.109.10.118/35Project/v.jpg"
-    const val HOWBETBH = "http://65.109.10.118/35Project/h.jpg"
+    const val HOWBETBV = "http://65.109.10.118/35Project/vv.jpg"
+    const val HOWBETBH = "http://65.109.10.118/35Project/hh.jpg"
     const val TAB_ONE = 1
     const val TAB_TWO = 2
     const val TAB_THREE = 3

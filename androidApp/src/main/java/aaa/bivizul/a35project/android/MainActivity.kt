@@ -7,6 +7,9 @@ import aaa.bivizul.a35project.howbetui.howbetroot.HowbetRootComponent
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.compose.material.darkColors
+import androidx.compose.material.lightColors
+import androidx.compose.ui.graphics.Color
 import com.arkivanov.decompose.defaultComponentContext
 
 class MainActivity : ComponentActivity() {

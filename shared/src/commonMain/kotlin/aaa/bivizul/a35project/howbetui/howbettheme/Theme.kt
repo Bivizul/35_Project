@@ -18,17 +18,17 @@ fun MyApplicationTheme(
 ) {
     val colors = if (darkTheme) {
         darkColors(
-            primary = Color(0xFF58571B),
+            primary = Color(0xFFA74C15),
             onPrimary = Color.White,
-            secondary = Color(0xFF00FFC4),
-            surface = Color(0x95005541)
+            secondary = Color(0xFFB18C71),
+            surface = Color(0x951D1D1D)
         )
     } else {
         lightColors(
-            primary = Color(0xFFa8a632),
+            primary = Color(0xFFF76E1C),
             onPrimary = Color.Black,
-            secondary = Color(0xFF00FFC4),
-            surface = Color(0x9500FFC4)
+            secondary = Color(0xFFEBB891),
+            surface = Color(0x95CACACA)
         )
     }
     val typography = Typography(
